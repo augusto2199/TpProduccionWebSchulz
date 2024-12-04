@@ -1,0 +1,125 @@
+.body{
+    background-color: #e0fad4;
+}
+
+.navb{
+    background-color: #e0fad4;
+}
+
+.cardPartido{
+    background-color: white;
+    box-shadow: 10px 5px 15px grey;
+    margin: 30px 0px 0px 0px;
+    padding-bottom: 20px;
+    padding-top: 10px;
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.cardPartidoHeader{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cardPartidoEsqudos{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.cardPartidoProximoTitulo{
+    justify-content: center;
+    text-align: center;
+}
+
+.cardPartidoEsqudo{
+    margin: 0px 5px 0px 5px;;
+}
+
+.cardPatidoDireccionFecha{
+    justify-content: center;
+    text-align: center;
+    color: grey;
+}
+
+.cardPartidoProximosTitulo{
+    justify-content: center;
+    text-align: center;
+}
+
+.cardPartidoProximosTabla{
+    margin: 0px 20px 0px 20px;
+}
+
+.cardTablaPosicion{
+    background-color: white;
+    box-shadow: 10px 5px 15px grey;
+    margin: 30px 10px 0px 15px;
+    padding-bottom: 20px;
+    padding-top: 10px;
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.cardTablaPosicionHeader{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cardEquipo{
+    background-color: white;
+    box-shadow: 10px 5px 15px grey;
+    margin: 30px 15px 0px 10px;
+    padding-bottom: 20px;
+    padding-top: 10px;
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.cardEquipoHeader{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cardLogin{
+    background-color: white;
+    box-shadow: 10px 5px 15px grey;
+    margin: 30px 0px 0px 0px;
+    padding-bottom: 20px;
+    padding-top: 10px;
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.cardLoginHeader{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.LoginRegister{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form{
+    width: 50%;
+}
+
+.CRUDAgregar{
+    margin-bottom: 15px;
+    margin-left: 20px;
+}
+
+.CRUDEditar{
+    margin-right: 5px;
+}

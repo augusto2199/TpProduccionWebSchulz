@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Baby Futbol App</title>
+</head>
+<body class="body">
+    
+    <header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light navb">
+            <div class="container">
+                <a class="navbar-brand" href="../index.html"><img src="../img/soccer-ball64.png" alt=""></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                    <a class="nav-link" href="#">Partidos</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="#">Torneo</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="#">Equipo</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="navbar-brand active" href="login.html"><img src="../img/user.png" alt=""></a>
+                    </li>
+                </ul>
+                </div>
+            </div>
+          </nav>
+    </header>
+
+    <div class="container">
+          <div class="cardLogin">
+              <h2 class="cardLoginHeader">CRUD</h2>
+              <button type="button" class="btn btn-success CRUDAgregar">Agregar</button>
+              <div class="container home">
+                <nav>
+                    <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                        <button class="nav-link active" id="nav-usuarios-tab" data-bs-toggle="tab" data-bs-target="#nav-usuarios" type="button" role="tab" aria-controls="nav-usuarios" aria-selected="true">Usuarios</button>
+                        <button class="nav-link" id="nav-torneos-tab" data-bs-toggle="tab" data-bs-target="#nav-torneos" type="button" role="tab" aria-controls="nav-torneos" aria-selected="false">Partidos</button>
+                        <button class="nav-link" id="nav-equipos-tab" data-bs-toggle="tab" data-bs-target="#nav-equipos" type="button" role="tab" aria-controls="nav-equipos" aria-selected="false">Equipos</button>
+                        <button class="nav-link" id="nav-equipos-tab" data-bs-toggle="tab" data-bs-target="#nav-equipos" type="button" role="tab" aria-controls="nav-equipos" aria-selected="false">Torneos</button>
+                    </div>
+                </nav>
+                <div class="tab-content" id="nav-tabContent">
+                    <div class="tab-pane fade show active" id="nav-usuarios" role="tabpanel" aria-labelledby="nav-usuarios-tab">
+                        <table class="table table-hover">
+                            <thead>
+                              <tr>
+                                <th scope="col">Id</th>
+                                <th scope="col">Nombre y Apellido</th>
+                                <th scope="col">Email</th>
+                                <th scope="col">Edad</th>
+                                <th scope="col">Rol</th>
+                                <th scope="col">Acciones</th>
+                              </tr>
+                            </thead>
+                            <tbody>
+                              <tr>
+                                <th scope="row">1</th>
+                                <td>Admin1</td>
+                                <td>Admin1@gmail.com</td>
+                                <td>25</td>
+                                <td>Admin</td>
+                                <td class="CRUDBotones"><button type="button" class="btn btn-primary CRUDEditar">Editar</button><button type="button" class="btn btn-danger CRUDBorrar">Borrar</button></td>
+                              </tr>
+                              <tr>
+                                <th scope="row">2</th>
+                                <td>Lionel Messi</td>
+                                <td>Liomessi@gmail.com</td>
+                                <td>37</td>
+                                <td>Jugador</td>
+                                <td class="CRUDBotones"><button type="button" class="btn btn-primary CRUDEditar">Editar</button><button type="button" class="btn btn-danger CRUDBorrar">Borrar</button></td>
+                              </tr>
+                              <tr>
+                                <th scope="row">3</th>
+                                <td>Pep Guardiola</td>
+                                <td>Pepguardiola@gmail.com</td>
+                                <td>53</td>
+                                <td>Entrenador</td>
+                                <td class="CRUDBotones"><button type="button" class="btn btn-primary CRUDEditar">Editar</button><button type="button" class="btn btn-danger CRUDBorrar">Borrar</button></td>
+                              </tr>
+                            </tbody>
+                          </table>
+                    </div>
+                    <div class="tab-pane fade" id="nav-torneos" role="tabpanel" aria-labelledby="nav-torneos-tab">
+
+                    </div>
+                    <div class="tab-pane fade" id="nav-equipos" role="tabpanel" aria-labelledby="nav-equipos-tab">
+
+                    </div>
+                </div>
+            </div>
+            
+          </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+
+
+</html>
